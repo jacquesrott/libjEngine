@@ -1,0 +1,11 @@
+TODO
+====
+
+ * Makefile library linking issue
+ * Correct uninstall bug
+ * Import old project tests
+ * Add DAE model loader
+ * Add bone engine
+
+
+ * write some doc ?
