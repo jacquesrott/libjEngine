@@ -1,6 +1,4 @@
-/*
-
-   libjEngine - C++ 3D library
+libjEngine - C++ 3D library
 Copyright (C) 2013  Jacques Rott <jacques.rott@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
@@ -16,23 +14,3 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-*/
-
-#ifndef __TOOLS__
-#define __TOOLS__
-
-#include <string>
-#include <iostream>
-#include <fstream>
-#include <glm/glm.hpp>
-
-
-namespace jE {
-    unsigned long getFileLength(std::ifstream& file);
-
-    // TODO: remove this functions...
-    void color_RGB_to_glFormat(glm::vec4 * color);
-    void color_glFormat_to_RGB(glm::vec4 * color);
-};
-
-#endif
